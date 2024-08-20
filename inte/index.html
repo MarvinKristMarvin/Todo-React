@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todolist React</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <form class="form">
+      <input type="text" class="form-item" placeholder="Ajouter une tâche">
+    </form>
+    <p class="counter">2 tâches en cours</p>
+    <ul class="list">
+      <li class="item">
+        <label class="item-label item-label--done">
+          <input class="item-checkbox" type="checkbox" checked>
+          <form class="item-form">
+            <input type="text" value="Faire pousser des avocats">
+            <button type="submit" class="item-delete">OK</button>
+          </form>
+        </label>
+        <button type="button" class="item-delete">del</button>
+        <button type="button" class="item-delete">edit</button>
+      </li>
+      <li class="item">
+        <label class="item-label">
+          <input class="item-checkbox" type="checkbox">
+          <span>Ranger mon bureau</span>
+        </label>
+        <button type="button" class="item-delete">del</button>
+        <button type="button" class="item-delete">edit</button>
+      </li> 
+      <li class="item">
+        <label class="item-label">
+          <input class="item-checkbox" type="checkbox">
+          <span>Apprendre React</span>
+        </label>
+        <button type="button" class="item-delete">del</button>
+        <button type="button" class="item-delete">edit</button>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
