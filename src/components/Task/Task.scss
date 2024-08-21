@@ -1,0 +1,40 @@
+.item {
+  display: block;
+  background: #eee;
+  border-radius: 3px;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+
+  &-label {
+    width: 100%;
+    display: flex;
+   
+    &--done {
+      opacity: 0.5;
+      text-decoration: line-through;
+    }
+  }
+
+  &-checkbox {
+    margin-right: 0.5em;
+  }
+
+  &-delete {
+    border: none;
+    cursor: pointer;
+  }
+
+  &-form {
+    display: flex;
+    width: 100%;
+    input {
+      width: 100%;
+    }
+  }
+
+  span {
+    padding: .19em 0
+  }
+}
